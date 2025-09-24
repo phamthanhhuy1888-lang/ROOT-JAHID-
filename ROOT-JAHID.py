@@ -63,7 +63,7 @@ try:
     from io import BytesIO
 
 except:
-
+	
     os.system('pip install pycurl')
 
     import pycurl
